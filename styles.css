@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#body-title{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: #70c1ff;
+  
+}
+
+#body-title:hover{
+    background-color: #70c1ff;
+    color: lightgrey;
+    
+
+  
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    position: relative;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 50%;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.eliminar {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.eliminar:hover {
+    text-decoration: underline;
+
+.volver {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+.end-4 {
+  position: relative;
+  left: 50px;
+  }
+
+.prefijo{
+
+  position: relative;
+  top: 200px;
+  
+}
+
